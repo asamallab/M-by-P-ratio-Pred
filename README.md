@@ -58,11 +58,3 @@ Regression- <br />
     ```
     python3 <path to python file>  <path to result folder>
     ```
-
-   
- 
-
-
-
-
-
