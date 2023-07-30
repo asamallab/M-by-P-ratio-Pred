@@ -1,9 +1,9 @@
 # M/P-ratio-Pred
 
-This repository provides the datasets and codes associated with the following manuscript:
-<i>Machine learning models for prediction of xenobiotic chemicals with high propensity to transfer into human milk</i>,
-Sudharsan Vijayaraghavan, Akshaya Lakshminarayanan, Naman Bhargava, Janani Ravichandran,  R.P. Vivek-Ananth*, Areejit Samal*
-bioRxiv 2023.xx.xx.xxxxxx; doi: https://doi.org/
+This repository provides the datasets and codes associated with the following manuscript:<br>
+<i>Machine learning models for prediction of xenobiotic chemicals with high propensity to transfer into human milk</i>,<br>
+Sudharsan Vijayaraghavan, Akshaya Lakshminarayanan, Naman Bhargava, Janani Ravichandran,  R.P. Vivek-Ananth*, Areejit Samal*<br>
+bioRxiv 2023.xx.xx.xxxxxx; doi: https://doi.org/<br>
 (*Corresponding author)
 
 # Schematic Workflow
