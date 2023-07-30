@@ -2,6 +2,7 @@
 
 This repository contains the code and dataset used for the manuscript titled "Machine learning models for prediction of xenobiotic chemicals with high propensity to transfer into human milk." In this research project, we aim to build machine learning models to predict xenobiotic chemicals with high propensity to transfer from maternal plasma to human milk.
 
+![SchematicWorkflow](https://github.com/asamallab/M-by-P-ratio-Pred/blob/main/SchematicWorkflow.png)
 
 
 # Repository Organization
