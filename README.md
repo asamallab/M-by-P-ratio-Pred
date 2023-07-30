@@ -45,16 +45,17 @@ Regression- <br />
 * classification_based_regression.py - Python code to  evaluate the classification based on the regression model on the (internal) test set.
 * external_set.py - Python code for evaluating the classification based on regression model on the external test dataset after applying domain of applicability.<br />
 
-## Steps to run the code-
-1.	Use the following command to download all the required dependencies. 
-   ```
+## Syntax to run the codes
+1.	Use the following command to download all the required dependencies.
+```
    pip3 install -r requirements.txt
-    ```
+```
 2.	Commands to run python code for classification and regression tasks.
-    ```
+```
     python3 <path to python file> < # of top features to be considered>
-    ```
+ ```
 3. Commands to run external set and classification based on regression.
-    ```
+```
     python3 <path to python file>  <path to result folder>
-    ```
+```
+
