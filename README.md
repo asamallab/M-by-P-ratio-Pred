@@ -28,15 +28,15 @@ ReadMe.md - Contains project and dataset description, along with steps to run th
 * external_test_dataset.csv - External test dataset 
 
 ## Models
-The code in this repository provides a complete workflow for predicting the entry of exogenous chemicals into human breast milk using machine learning. The workflow includes feature pre-processing, feature selection, hyperparameter tuning, training, and evaluation.
+The codes in this repository enable the reproduction of the results present in the manuscript to predict xenobiotic chemicals with a high propensity to transfer from maternal plasma to human milk. The code provided for the five  models corresponding to the five different classification algorithms and three models corresponding to three different regression algorithms performs end-to-end processing of the data including the feature pre-processing, feature selection, hyperparameter tuning, training, and evaluation of the models.
 
 Classification-  <br /><br />
-* lda.py - Python file to train and evaluate Linear Discrimination Analysis model for predicting entry of chemicals into breast milk.<br />
-* mlp.py - Python file to train and evaluate Multi Layer Perceptron model for predicting entry of chemicals into breast milk.<br />
-* randomforest.py - Python file to train and evaluate Random Forest model for predicting entry of chemicals into breast milk.<br />
-* svm.py - Python file to train and evaluate Support Vector Machine model for predicting entry of chemicals into breast milk.<br />
-* xg_boost.py - Python file to train and evaluate Xgboost model for predicting entry of chemicals into breast milk.<br />
-* external_set - Python file that contains code for model evaluation in External set after applying Domain of applicability.<br />
+* svm.py - Python code to train and evaluate Support Vector Machine based model.<br />
+* xg_boost.py - Python code to train and evaluate XGBoost based model for predicting entry of chemicals into breast milk.<br />
+* lda.py - Python code to train and evaluate Linear Discrimination Analysis model for predicting entry of chemicals into breast milk.<br />
+* mlp.py - Python code to train and evaluate Multi Layer Perceptron model for predicting entry of chemicals into breast milk.<br />
+* randomforest.py - Python code to train and evaluate Random Forest model for predicting entry of chemicals into breast milk.<br />
+* external_set.py - Python code that contains code for model evaluation in External test dataset after applying Domain of applicability.<br />
 
 Regression- <br /><br />
 * randomforest.py - Python file to train and evaluate Random Forest model for prediction of milk-to-plasma ratio of compounds.<br /> 
