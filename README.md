@@ -30,47 +30,33 @@ ReadMe.md - Contains project and dataset description, along with steps to run th
 ## Models
 The codes in this repository enable the reproduction of the results present in the manuscript to predict xenobiotic chemicals with a high propensity to transfer from maternal plasma to human milk. The code provided for the five  models corresponding to the five different classification algorithms and three models corresponding to three different regression algorithms performs end-to-end processing of the data including the feature pre-processing, feature selection, hyperparameter tuning, training, and evaluation of the models.
 
-Classification-  <br /><br />
-* svm.py - Python code to train and evaluate Support Vector Machine based model.<br />
-* xg_boost.py - Python code to train and evaluate XGBoost based model for predicting entry of chemicals into breast milk.<br />
-* lda.py - Python code to train and evaluate Linear Discrimination Analysis model for predicting entry of chemicals into breast milk.<br />
-* mlp.py - Python code to train and evaluate Multi Layer Perceptron model for predicting entry of chemicals into breast milk.<br />
-* randomforest.py - Python code to train and evaluate Random Forest model for predicting entry of chemicals into breast milk.<br />
-* external_set.py - Python code that contains code for model evaluation in External test dataset after applying Domain of applicability.<br />
+Classification-  <br />
+* svm.py - Python code to train and evaluate Support Vector Machine model.<br />
+* xg_boost.py - Python code to train and evaluate XGBoost model.<br />
+* lda.py - Python code to train and evaluate Linear Discrimination Analysis model.<br />
+* mlp.py - Python code to train and evaluate Multi Layer Perceptron model.<br />
+* randomforest.py - Python code to train and evaluate Random Forest model.<br />
+* external_set.py - Python code for evaluating the model on the external test dataset after applying domain of applicability.<br />
 
-Regression- <br /><br />
-* randomforest.py - Python file to train and evaluate Random Forest model for prediction of milk-to-plasma ratio of compounds.<br /> 
-* svm.py - Python file to train and evaluate Support Vector Machine model for prediction of milk-to-plasma ratio of compounds. <br />
-* xgboost.py - Python file to train and evaluate Xgboost models for prediction of milk-to-plasma ratio of compounds.<br />
-
-
-Codes for these are included in the Models folder.  Further, external_set_Classification.py and external_set_Regression.py include code for testing machine learning models on ExHumid Dataset.
-
+Regression- <br />
+* svm.py - Python code to train and evaluate Support Vector Machine model. <br />
+* xgboost.py - Python code to train and evaluate Xgboost models.<br />
+* randomforest.py - Python code to train and evaluate Random Forest model.<br />
+* classification_based_regression.py - Python code to  evaluate the classification based on the regression model on the (internal) test set.
+* external_set.py - Python code for evaluating the classification based on regression model on the external test dataset after applying domain of applicability.<br />
 
 ## Steps to run the code-
 1.	Use the following command to download all the required dependencies. 
    ```
    pip3 install -r requirements.txt
-   ```
-
-2.	Compute structures of molecules using PubChem website.
-
-  PubChem:https://pubchem.ncbi.nlm.nih.gov/
-  
-3. Verify chemical structures based on Tanimoto coefficient using chemical.py file.
-   ```
-   python3 chemical.py <path of dataset>
-   ```
-
-3.	Use the PaDEL software to compute descriptors for the chemicals. PaDEL Link:  http://padel.nus.edu.sg/software/padeldescriptor
-
-4.	Commands to run the python file for classification and regression tasks.
     ```
-    Python3 <path to python file> <no. Of top features to be considered>
+2.	Commands to run python code for classification and regression tasks.
     ```
-5. Commands to run external set and classification based on regression.
+    python3 <path to python file> < # of top features to be considered>
     ```
-    Python3 <path to python file>  <path to result folder>
+3. Commands to run external set and classification based on regression.
+    ```
+    python3 <path to python file>  <path to result folder>
     ```
 
    
