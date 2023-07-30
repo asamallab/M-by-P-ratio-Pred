@@ -9,25 +9,23 @@ bioRxiv 2023.xx.xx.xxxxxx; doi: https://doi.org/<br>
 # Schematic Workflow
 <figure>
   <img src="https://github.com/asamallab/M-by-P-ratio-Pred/blob/main/SchematicWorkflow.png" alt="SchematicWorkflow" style="width:100%">
-  <figcaption>Schematic diagram summarizing the workflow to build the classification- and regression-based machine learning models to predict xenobiotic chemicals with high propensity to transfer from maternal plasma to human milk. The figure shows the key steps involved in data curation, feature generation, data preprocessing, feature selection, and the training and evaluation of classification- and regression-based machine learning models.</figcaption>
+  <figcaption>Schematic diagram summarizes the workflow to build the classification- and regression-based machine learning models to predict xenobiotic chemicals with high propensity to transfer from maternal plasma to human milk. The figure shows the key steps involved in data curation, feature generation, data preprocessing, feature selection, and the training and evaluation of classification- and regression-based machine learning models.</figcaption>
 </figure>
 
 # Repository Organization
 ```
-Dataset - This folder contains the train, test, and External dataset used in this study
+Dataset - This folder contains the train, (internal) test, and external test dataset used in this study
 Models 
   ├── Classification - Codes used for classification models
   ├── Regression - Codes used for Regression models
-Trained_Models - This folder contains the models trained on our dataset
 ReadMe.md - Contains project and dataset description, along with steps to run the codes.
 ```
   
 ## Dataset
-We utilized a comprehensive collection of Milk-to-Plasma (M/P) ratio data to build and evaluate our predictive model. The data set comprises M/P ratios of 375 different chemical compounds. These ratios represent the concentration of chemicals in human milk relative to their concentration in maternal plasma. To generate features for these compounds, we used PaDEL, which is open-source software that calculates various molecular descriptors.
-To evaluate the generalizability of our model, we used an external test set of 206 compounds collected from ExHuMId, ExHuMUS, and ExHuM Explorer. These compounds were not included in the training data set, and we used them to assess the performance of our model on new and unseen data.
+ To build the machine learning models, we leveraged a curated dataset of 375 chemicals with experimentally determined M/P ratios compiled from Vasios et al. and other published literature.  For each chemical in this dataset, we obtained the 2D structure, generated the 3D structure, and computed 1875 molecular descriptors using PaDEL. We evaluated the generalizability of our best classification models by leveraging an external test dataset, comprising 202 chemicals, with high risk of transfer from maternal plasma to human milk.
 * train.csv - Data used for training
 * test.csv - Data used for testing
-* descriptors_1d2d3d_exhumid.csv - External set 
+* descriptors_1d2d3d_exhumid.csv - External test set 
 
 ## Models
 The code in this repository provides a complete workflow for predicting the entry of exogenous chemicals into human breast milk using machine learning. The workflow includes feature pre-processing, feature selection, hyperparameter tuning, training, and evaluation.
