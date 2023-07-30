@@ -1,6 +1,8 @@
-# Exposome and Human Milk: Machine Learning for Chemical Propensity Prediction
+# Machine learning models for prediction of xenobiotic chemicals with high propensity to transfer into human milk
 
-This repository contains the code and dataset used for the manuscript titled "Exposome and Human Milk: Machine Learning for Chemical Propensity Prediction." In this research project, we aim to predict the entry of exogenous chemicals into human breast milk using machine-learning techniques. Further, we predict Milk-to-Plasma ratio of these models as well.
+This repository contains the code and dataset used for the manuscript titled "Machine learning models for prediction of xenobiotic chemicals with high propensity to transfer into human milk." In this research project, we aim to build machine learning models to predict xenobiotic chemicals with high propensity to transfer from maternal plasma to human milk.
+
+
 
 # Repository Organization
 ```
