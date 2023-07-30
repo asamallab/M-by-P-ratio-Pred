@@ -23,9 +23,9 @@ ReadMe.md - Contains project and dataset description, along with steps to run th
   
 ## Dataset
  To build the machine learning models, we leveraged a curated dataset of 375 chemicals with experimentally determined M/P ratios compiled from Vasios et al. and other published literature.  For each chemical in this dataset, we obtained the 2D structure, generated the 3D structure, and computed 1875 molecular descriptors using PaDEL. We evaluated the generalizability of our best classification models by leveraging an external test dataset, comprising 202 chemicals, with high risk of transfer from maternal plasma to human milk.
-* train.csv - Data used for training
-* test.csv - Data used for testing
-* descriptors_1d2d3d_exhumid.csv - External test set 
+* train.csv - Training data
+* test.csv - (Internal) test data
+* external_test_dataset.csv - External test dataset 
 
 ## Models
 The code in this repository provides a complete workflow for predicting the entry of exogenous chemicals into human breast milk using machine learning. The workflow includes feature pre-processing, feature selection, hyperparameter tuning, training, and evaluation.
