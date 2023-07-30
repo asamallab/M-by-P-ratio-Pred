@@ -1,9 +1,16 @@
-# Machine learning models for prediction of xenobiotic chemicals with high propensity to transfer into human milk
+# M/P-ratio-Pred
 
-This repository contains the code and dataset used for the manuscript titled "Machine learning models for prediction of xenobiotic chemicals with high propensity to transfer into human milk." In this research project, we aim to build machine learning models to predict xenobiotic chemicals with high propensity to transfer from maternal plasma to human milk.
+This repository provides the datasets and codes associated with the following manuscript:
+<i>Machine learning models for prediction of xenobiotic chemicals with high propensity to transfer into human milk</i>,
+Sudharsan Vijayaraghavan, Akshaya Lakshminarayanan, Naman Bhargava, Janani Ravichandran,  R.P. Vivek-Ananth*, Areejit Samal*
+bioRxiv 2023.xx.xx.xxxxxx; doi: https://doi.org/
+(*Corresponding author)
 
-![SchematicWorkflow](https://github.com/asamallab/M-by-P-ratio-Pred/blob/main/SchematicWorkflow.png)
-
+# Schematic Workflow
+<figure>
+  <img src="https://github.com/asamallab/M-by-P-ratio-Pred/blob/main/SchematicWorkflow.png" alt="SchematicWorkflow" style="width:100%">
+  <figcaption>Schematic diagram summarizing the workflow to build the classification- and regression-based machine learning models to predict xenobiotic chemicals with high propensity to transfer from maternal plasma to human milk. The figure shows the key steps involved in data curation, feature generation, data preprocessing, feature selection, and the training and evaluation of classification- and regression-based machine learning models.</figcaption>
+</figure>
 
 # Repository Organization
 ```
