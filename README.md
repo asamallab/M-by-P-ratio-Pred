@@ -22,7 +22,7 @@ ReadMe.md - Contains project and dataset description, along with steps to run th
 ```
   
 ## Dataset
- To build the machine learning models, we leveraged a curated dataset of 375 chemicals with experimentally determined M/P ratios compiled from Vasios et al. and other published literature.  For each chemical in this dataset, we obtained the 2D structure, generated the 3D structure, and computed 1875 molecular descriptors using PaDEL. We evaluated the generalizability of our best classification models by leveraging an external test dataset, comprising 202 chemicals, with high risk of transfer from maternal plasma to human milk.
+ To build the machine learning models, we leveraged a curated dataset of 375 chemicals with experimentally determined M/P ratios compiled from Vasios et al. (PMID: [27573378](https://pubmed.ncbi.nlm.nih.gov/27573378/)) and other published literature.  For each chemical in this dataset, we obtained the 2D structure, generated the 3D structure, and computed 1875 molecular descriptors using PaDEL. We evaluated the generalizability of our best classification models by leveraging an external test dataset, comprising 202 chemicals, with high risk of transfer from maternal plasma to human milk.
 * train.csv - Training data
 * test.csv - (Internal) test data
 * external_test_dataset.csv - External test dataset 
