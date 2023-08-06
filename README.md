@@ -33,7 +33,7 @@ The codes in this repository enable the reproduction of the results present in t
 Classification-  <br />
 * svm.py - Python code to train and evaluate Support Vector Machine model.<br />
 * xg_boost.py - Python code to train and evaluate XGBoost model.<br />
-* lda.py - Python code to train and evaluate Linear Discrimination Analysis model.<br />
+* lda.py - Python code to train and evaluate Linear Discriminant Analysis model.<br />
 * mlp.py - Python code to train and evaluate Multi Layer Perceptron model.<br />
 * randomforest.py - Python code to train and evaluate Random Forest model.<br />
 * external_set.py - Python code for evaluating the model on the external test dataset after applying domain of applicability.<br />
