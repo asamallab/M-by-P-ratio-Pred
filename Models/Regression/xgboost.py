@@ -25,8 +25,8 @@ model = "xgboost"
 topk = int(sys.argv[1])
 
 #import train and test data
-Train_data = pd.read_csv(os.getcwd() + "/../Dataprep/train.csv", sep="\t")
-Test_data = pd.read_csv(os.getcwd() + "/../Dataprep/test.csv", sep="\t")
+Train_data = pd.read_csv(os.getcwd() + "/../Dataset/train.csv", sep="\t")
+Test_data = pd.read_csv(os.getcwd() + "/../Dataset/test.csv", sep="\t")
 
 Train_data.drop("Unnamed: 0", axis=1, inplace=True)
 Test_data.drop("Unnamed: 0", axis=1, inplace=True)
