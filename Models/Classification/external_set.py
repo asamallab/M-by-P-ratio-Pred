@@ -31,7 +31,7 @@ if "corr_rem" in path:
     )
     Train_data.drop("Unnamed: 0.1", axis=1, inplace=True)
 else:
-    Train_data = pd.read_csv(os.getcwd() + "/../Dataprep/train.csv", sep="\t")
+    Train_data = pd.read_csv(os.getcwd() + "/../Dataset/train.csv", sep="\t")
 
 Train_data.drop("Unnamed: 0", axis=1, inplace=True)
 Train_data.drop("MP_Ratio", inplace=True, axis=1)
