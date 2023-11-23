@@ -21,7 +21,7 @@ DAP_threshold = 3
 
 #Import External Test Sets
 External_test = pd.read_csv(
-    os.getcwd() + "/descriptors_1d2d3d_exhumid.csv", sep="\t"
+    os.getcwd() + "/external_test_dataset.csv", sep="\t"
 )
 External_test.drop("Chemical_Identifier", axis=1, inplace=True)
 
