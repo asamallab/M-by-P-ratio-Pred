@@ -4,7 +4,7 @@ This repository provides the datasets and codes associated with the following ma
 
 Sudharsan Vijayaraghavan, Akshaya Lakshminarayanan, Naman Bhargava, Janani Ravichandran,  R.P. Vivek-Ananth*, Areejit Samal*,
 [<i>Machine learning models for prediction of xenobiotic chemicals with high propensity to transfer into human milk</i>](https://pubs.acs.org/doi/10.1021/acsomega.3c09392),
-ACS Omega, 9(11):13006-13016, 2024 <br>
+ACS Omega, 9(11):13006-13016, 2024. <br>
 (* Corresponding author)
 
 # Schematic Workflow
@@ -65,4 +65,4 @@ In case you use the codes herein, please cite the following research article:
 
 Sudharsan Vijayaraghavan, Akshaya Lakshminarayanan, Naman Bhargava, Janani Ravichandran,  R.P. Vivek-Ananth*, Areejit Samal*,
 [<i>Machine learning models for prediction of xenobiotic chemicals with high propensity to transfer into human milk</i>](https://pubs.acs.org/doi/10.1021/acsomega.3c09392),
-ACS Omega, 9(11):13006-13016, 2024 <br>
+ACS Omega, 9(11):13006-13016, 2024.
