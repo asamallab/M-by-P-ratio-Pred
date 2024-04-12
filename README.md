@@ -1,11 +1,11 @@
 # M/P-ratio-Pred
 
-This repository provides the datasets and codes associated with the following manuscript:<br>
+This repository provides the datasets and codes associated with the following research article:<br>
 
 Sudharsan Vijayaraghavan, Akshaya Lakshminarayanan, Naman Bhargava, Janani Ravichandran,  R.P. Vivek-Ananth*, Areejit Samal*,
 [<i>Machine learning models for prediction of xenobiotic chemicals with high propensity to transfer into human milk</i>](https://pubs.acs.org/doi/10.1021/acsomega.3c09392),
 ACS Omega, 9(11):13006-13016, 2024. <br>
-(* Corresponding author)
+(* Corresponding authors)
 
 # Schematic Workflow
 <figure>
