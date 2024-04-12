@@ -1,10 +1,11 @@
 # M/P-ratio-Pred
 
-This repository provides the datasets and codes associated with the following manuscript:<br><br>
-[<i>Machine learning models for prediction of xenobiotic chemicals with high propensity to transfer into human milk</i>](https://pubs.acs.org/doi/10.1021/acsomega.3c09392),<br>
-Sudharsan Vijayaraghavan, Akshaya Lakshminarayanan, Naman Bhargava, Janani Ravichandran,  R.P. Vivek-Ananth*, Areejit Samal*, <br>
-ACS Omega, 9(11):13006-13016, 2024
-(*Corresponding author)
+This repository provides the datasets and codes associated with the following manuscript:<br>
+
+Sudharsan Vijayaraghavan, Akshaya Lakshminarayanan, Naman Bhargava, Janani Ravichandran,  R.P. Vivek-Ananth*, Areejit Samal*, <br> 
+[<i>Machine learning models for prediction of xenobiotic chemicals with high propensity to transfer into human milk</i>](https://pubs.acs.org/doi/10.1021/acsomega.3c09392), <br>
+ACS Omega, 9(11):13006-13016, 2024 <br>
+(* Corresponding author)
 
 # Schematic Workflow
 <figure>
@@ -59,3 +60,9 @@ Regression- <br />
     python3 <path to python file>  <path to result folder>
 ```
 
+## Citation
+In case you use the codes herein, please cite the following research article: 
+
+Sudharsan Vijayaraghavan, Akshaya Lakshminarayanan, Naman Bhargava, Janani Ravichandran,  R.P. Vivek-Ananth*, Areejit Samal*, <br> 
+[<i>Machine learning models for prediction of xenobiotic chemicals with high propensity to transfer into human milk</i>](https://pubs.acs.org/doi/10.1021/acsomega.3c09392), <br>
+ACS Omega, 9(11):13006-13016, 2024 <br>
